@@ -1,0 +1,27 @@
+{
+  "name": "auth",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.10.15",
+    "query-string": "^6.11.1",
+    "react-credit-cards": "^0.8.0",
+    "react-password-strength": "^2.4.0",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  },
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "node src/index.js"
+  }
+}
